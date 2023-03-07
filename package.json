@@ -1,0 +1,33 @@
+{
+	"name": "warehouse-api",
+	"version": "1.0.0",
+	"description": "API para controle de almoxarifado.",
+	"main": "./dist/index.js",
+	"type": "module",
+	"scripts": {
+		"start": "npm run build && node ./dist/index.js",
+		"build": "tsc",
+		"dev": "tsx watch ./src/index.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AnaLTFernandes/warehouse-api.git"
+	},
+	"keywords": [],
+	"author": "Ana Fernandes",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AnaLTFernandes/warehouse-api/issues"
+	},
+	"homepage": "https://github.com/AnaLTFernandes/warehouse-api#readme",
+	"devDependencies": {
+		"@types/cors": "^2.8.13",
+		"@types/express": "^4.17.17",
+		"tsx": "^3.12.3",
+		"typescript": "^4.9.5"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.18.2"
+	}
+}
